@@ -1,6 +1,11 @@
 .displayflex {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+:hover {
+  background-color: #FFFFFF;
+  color: #22283A;
+  border-color: #22283A;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -236,7 +241,7 @@ footer {
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 @media (max-width: 500px) {
   .home .walk {
@@ -257,7 +262,7 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .walk .walk-text button {
   font-size: 18px;
   color: white;
   padding: 8px;
@@ -267,7 +272,7 @@ footer {
   background-color: #22283A;
 }
 @media (max-width: 500px) {
-  .home .walk .walk-text .btn {
+  .home .walk .walk-text button {
     width: 110%;
     padding: 20px 0;
   }
